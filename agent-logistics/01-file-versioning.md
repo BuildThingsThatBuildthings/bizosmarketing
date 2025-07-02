@@ -1,53 +1,34 @@
 ---
 owner_name: "Ryan Wanner"
 company_name: "Build Things That Build Things"
-primary_market: "Business Operating Systems / Solo Entrepreneur Tools"
+primary_market: "Business Operating Systems"
 tone_of_voice: "Direct, systematic, Alex Hormozi-inspired"
 last_updated: "2025-07-01"
-tags: ["agent-logistics", "versioning", "file-management", "workflow"]
+tags: [REQUIRE INPUT: tag structure for file versioning not found in Core-4]
 ---
 
 # File Versioning Guidelines
 
-*Never lose progress, always move forward*
+[REQUIRE INPUT: File versioning overview not found in Core-4]
 
 ## 🎯 Core Principle
 
-Every file has a lifecycle: Create → Update → Fork → Archive. Understanding when to use each action prevents chaos and preserves progress.
+[REQUIRE INPUT: Core versioning principle not found in Core-4]
 
 ## 📊 Decision Matrix
 
-| Scenario | Action | Example |
-|----------|--------|---------|
-| **New asset, nothing similar exists** | Create | First landing page ever |
-| **Minor fixes (<20% changes)** | Update | Fix typo, update metric |
-| **Major revision (>20% changes)** | New version | v1 → v2 |
-| **Different use case** | Fork | Template → Client-specific |
-| **No longer needed** | Archive | Move to `/_archive/` |
+[REQUIRE INPUT: Decision matrix for versioning not found in Core-4]
 
 ## 🔄 Version Numbering
 
+[REQUIRE INPUT: Version numbering system not found in Core-4]
+
 ### Standard Progression
-- `v1` - Initial release
-- `v2` - Major revision (structure change)
-- `v3` - Another major revision
-- `v1.1` - Minor update to v1
-- `v2.1` - Minor update to v2
+[REQUIRE INPUT: Standard version progression rules not found in Core-4]
 
 ### When to Increment
-
-**Major Version (v1 → v2)**
-- Structural changes
-- New sections added
-- Purpose shift
-- Breaking changes
-
-**Minor Version (v1 → v1.1)**
-- Content updates
-- Small fixes
-- Metric refreshes
-- Typo corrections
+[REQUIRE INPUT: Version increment guidelines not found in Core-4]
 
 ---
 
-*Version control isn't about perfection - it's about progress without fear.*
+*Built with our own Biz OS framework - because we eat our own dog food.*
