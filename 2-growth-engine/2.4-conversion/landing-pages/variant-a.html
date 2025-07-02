@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Operating System: $97 Not $97,000 - Limited Time</title>
+    <meta name="description" content="Transform scattered operations into systematic growth engines. Enterprise-level business systems for 99% less. Offer expires soon.">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #0F172A;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #2563EB 0%, #1e40af 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            transform: rotate(45deg);
+            pointer-events: none;
+        }
+        
+        .urgency-bar {
+            background: #F59E0B;
+            color: #0F172A;
+            padding: 15px;
+            font-weight: 700;
+            text-align: center;
+            font-size: 18px;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .countdown {
+            display: inline-block;
+            margin-left: 10px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        h1 {
+            font-size: 48px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .price-highlight {
+            color: #10B981;
+            background: rgba(16, 185, 129, 0.2);
+            padding: 0 10px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        
+        .strikethrough {
+            text-decoration: line-through;
+            opacity: 0.6;
+        }
+        
+        .subheadline {
+            font-size: 24px;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            font-weight: 500;
+        }
+        
+        .benefits {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .benefit {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+        }
+        
+        .check {
+            background: #10B981;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .cta-button {
+            background: #F59E0B;
+            color: #0F172A;
+            padding: 20px 40px;
+            font-size: 24px;
+            font-weight: 800;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(245, 158, 11, 0.6);
+        }
+        
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.3s, height 0.3s;
+        }
+        
+        .cta-button:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        .trust-bar {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        
+        /* Problem Section */
+        .problem {
+            padding: 80px 0;
+            background: #f8fafc;
+        }
+        
+        .section-title {
+            font-size: 36px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 50px;
+            color: #0F172A;
+        }
+        
+        .pain-points {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .pain-point {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-left: 4px solid #EF4444;
+        }
+        
+        .pain-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #EF4444;
+        }
+        
+        /* Solution Section */
+        .solution {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .solution-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .solution-item {
+            text-align: center;
+            padding: 30px;
+            background: #f0f9ff;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        
+        .solution-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .solution-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .solution-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #2563EB;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            padding: 80px 0;
+            background: #f8fafc;
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .testimonial {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        
+        .testimonial::before {
+            content: '"';
+            position: absolute;
+            top: -20px;
+            left: 20px;
+            font-size: 80px;
+            color: #2563EB;
+            opacity: 0.2;
+        }
+        
+        .testimonial-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .author-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #2563EB;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        /* Offer Stack */
+        .offer {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .offer-stack {
+            background: #f0f9ff;
+            padding: 40px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 4px 20px rgba(37, 99, 235, 0.1);
+        }
+        
+        .stack-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(37, 99, 235, 0.1);
+        }
+        
+        .stack-item:last-child {
+            border-bottom: none;
+        }
+        
+        .item-name {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .item-value {
+            font-size: 18px;
+            color: #475569;
+        }
+        
+        .total-value {
+            background: #2563EB;
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .total-label {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        
+        .total-amount {
+            font-size: 48px;
+            font-weight: 900;
+            margin: 10px 0;
+        }
+        
+        .your-price {
+            font-size: 36px;
+            color: #10B981;
+            font-weight: 800;
+        }
+        
+        /* Guarantee */
+        .guarantee {
+            padding: 80px 0;
+            background: #f8fafc;
+        }
+        
+        .guarantee-box {
+            background: white;
+            padding: 50px;
+            border-radius: 12px;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            border: 3px solid #10B981;
+        }
+        
+        .guarantee-title {
+            font-size: 36px;
+            font-weight: 800;
+            color: #10B981;
+            margin-bottom: 20px;
+        }
+        
+        .guarantee-text {
+            font-size: 20px;
+            line-height: 1.8;
+            color: #475569;
+        }
+        
+        /* FAQ */
+        .faq {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .faq-grid {
+            display: grid;
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: #f8fafc;
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 4px solid #2563EB;
+        }
+        
+        .faq-question {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #0F172A;
+        }
+        
+        .faq-answer {
+            font-size: 16px;
+            color: #475569;
+            line-height: 1.8;
+        }
+        
+        /* Final CTA */
+        .final-cta {
+            background: linear-gradient(135deg, #0F172A 0%, #1e293b 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .final-headline {
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 30px;
+        }
+        
+        .final-text {
+            font-size: 20px;
+            margin-bottom: 40px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .scarcity-notice {
+            background: #EF4444;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 700;
+            max-width: 600px;
+            margin: 40px auto;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+        
+        /* Footer */
+        footer {
+            background: #0F172A;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 { font-size: 32px; }
+            .subheadline { font-size: 18px; }
+            .cta-button { font-size: 20px; padding: 15px 30px; }
+            .benefits { flex-direction: column; gap: 20px; }
+            .testimonial-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Urgency Bar -->
+    <div class="urgency-bar">
+        ⚡ FLASH SALE: Price increases to $197 in <span class="countdown" id="countdown">23:47:52</span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Stop Paying <span class="strikethrough">$97,000</span> for Business Systems<br>
+            Get the Same Results for <span class="price-highlight">Just $97</span></h1>
+            
+            <p class="subheadline">Transform your scattered operations into a systematic growth engine<br>
+            with enterprise-level frameworks - without the enterprise price tag</p>
+            
+            <div class="benefits">
+                <div class="benefit">
+                    <span class="check">✓</span>
+                    <span>Save 15+ hours every week</span>
+                </div>
+                <div class="benefit">
+                    <span class="check">✓</span>
+                    <span>Scale without the chaos</span>
+                </div>
+                <div class="benefit">
+                    <span class="check">✓</span>
+                    <span>GitHub-powered automation</span>
+                </div>
+            </div>
+            
+            <a href="#order" class="cta-button">Get Instant Access Now →</a>
+            
+            <div class="trust-bar">
+                <span>⭐⭐⭐⭐⭐ 427 entrepreneurs transformed</span>
+                <span>🔒 Secure SSL checkout</span>
+                <span>⏱️ Setup in under 60 minutes</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem">
+        <div class="container">
+            <h2 class="section-title">Is Your Business Eating You Alive?</h2>
+            
+            <div class="pain-points">
+                <div class="pain-point">
+                    <h3 class="pain-title">2AM Admin Hell</h3>
+                    <p>While competitors sleep, you're drowning in spreadsheets, invoices, and endless email chains.</p>
+                </div>
+                <div class="pain-point">
+                    <h3 class="pain-title">Growth = More Chaos</h3>
+                    <p>Every new client makes things worse. You're succeeding your way to burnout.</p>
+                </div>
+                <div class="pain-point">
+                    <h3 class="pain-title">$97K Consultant Trap</h3>
+                    <p>They'll build you systems... for the price of a luxury car. And you still do the work.</p>
+                </div>
+            </div>
+            
+            <p style="text-align: center; font-size: 20px; color: #EF4444; font-weight: 700;">
+                Every day without systems costs you money, time, and sanity.
+            </p>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution">
+        <div class="container">
+            <h2 class="section-title">Your Complete Business Operating System</h2>
+            <p style="text-align: center; font-size: 20px; color: #475569; margin-bottom: 50px;">
+                Everything consultants charge $97,000 to build - ready to deploy today
+            </p>
+            
+            <div class="solution-grid">
+                <div class="solution-item">
+                    <div class="solution-icon">📊</div>
+                    <h3 class="solution-title">Operations Hub</h3>
+                    <p>SOPs, workflows, and automation templates that run without you</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-icon">🚀</div>
+                    <h3 class="solution-title">Growth Engine</h3>
+                    <p>Marketing funnels, sales systems, and conversion frameworks</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-icon">💰</div>
+                    <h3 class="solution-title">Financial Command</h3>
+                    <p>Dashboards, metrics, and forecasts that CFOs charge $10K/month for</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-icon">🤖</div>
+                    <h3 class="solution-title">AI Integration</h3>
+                    <p>Pre-built prompts and automation that leverage ChatGPT for scale</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">From Chaos to Control in 30 Days</h2>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p class="testimonial-text">
+                        "I went from 60-hour weeks to 32. This system gave me my life back while doubling revenue. Worth 100x the price."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-image">SK</div>
+                        <div>
+                            <strong>Sarah Kim</strong><br>
+                            <span style="color: #475569;">Marketing Agency Owner</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">
+                        "Replaced my $8K/month operations consultant. Better results, fraction of the cost. This is the future."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-image">MR</div>
+                        <div>
+                            <strong>Marcus Rodriguez</strong><br>
+                            <span style="color: #475569;">SaaS Founder</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">
+                        "Finally, systems that actually work. Set up in an afternoon, saved 20 hours my first week. Incredible ROI."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-image">JT</div>
+                        <div>
+                            <strong>Jennifer Thompson</strong><br>
+                            <span style="color: #475569;">E-commerce Entrepreneur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer Stack -->
+    <section class="offer" id="order">
+        <div class="container">
+            <h2 class="section-title">Everything You Get Today</h2>
+            
+            <div class="offer-stack">
+                <div class="stack-item">
+                    <span class="item-name">Complete Business Operating System</span>
+                    <span class="item-value">Value: $25,000</span>
+                </div>
+                <div class="stack-item">
+                    <span class="item-name">150+ Automation Templates</span>
+                    <span class="item-value">Value: $15,000</span>
+                </div>
+                <div class="stack-item">
+                    <span class="item-name">Financial Dashboard Suite</span>
+                    <span class="item-value">Value: $10,000</span>
+                </div>
+                <div class="stack-item">
+                    <span class="item-name">AI Prompt Library</span>
+                    <span class="item-value">Value: $5,000</span>
+                </div>
+                <div class="stack-item">
+                    <span class="item-name">Weekly System Updates</span>
+                    <span class="item-value">Value: $2,400/year</span>
+                </div>
+                <div class="stack-item">
+                    <span class="item-name">Private Founder Community</span>
+                    <span class="item-value">Value: $997/year</span>
+                </div>
+                
+                <div class="total-value">
+                    <p class="total-label">Total Real-World Value</p>
+                    <p class="total-amount">$58,397</p>
+                    <p class="total-label">Your Investment Today</p>
+                    <p class="your-price">Just $97</p>
+                    <p style="font-size: 16px; opacity: 0.9;">That's 99.8% off consulting prices!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee -->
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-box">
+                <h2 class="guarantee-title">90-Day "Transform or Refund" Guarantee</h2>
+                <p class="guarantee-text">
+                    Deploy the system. Use it for 90 full days. If you don't save at least 10 hours per week 
+                    and see measurable business improvements, I'll refund every penny. No questions, no hassle. 
+                    You can even keep the system. That's how confident I am this will transform your business.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Quick Questions, Straight Answers</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">I'm not technical. Will this work for me?</h3>
+                    <p class="faq-answer">If you can copy and paste, you can use this system. Every step has a video guide, and our templates are plug-and-play. Zero coding required.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">How is this different from hiring a consultant?</h3>
+                    <p class="faq-answer">Consultants charge $97,000 to build what we're giving you for $97. Plus, you own everything forever, with free updates. No ongoing fees.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">What if I need help setting it up?</h3>
+                    <p class="faq-answer">You get step-by-step video guides, a quick-start checklist, and access to our community. Most users are running within 60 minutes.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Will this work for my specific industry?</h3>
+                    <p class="faq-answer">The framework adapts to any business. We have users in 47+ industries, from agencies to e-commerce to coaching. Systems are systems.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Is the price really going up?</h3>
+                    <p class="faq-answer">Yes. This is launch pricing for the next 100 customers only. The regular price will be $197, then $297 as we add more features.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2 class="final-headline">Your Business Deserves Better Than Chaos</h2>
+            <p class="final-text">
+                Every day you wait is another day of scattered operations, lost revenue, and 
+                unnecessary stress. Join 427+ entrepreneurs who've already transformed their business.
+            </p>
+            
+            <a href="#order" class="cta-button">Get Your Business OS Now →</a>
+            
+            <div class="scarcity-notice">
+                ⚠️ Only 23 spots left at $97 (price increases to $197 after)
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Build Things That Build Things | Your Success is Our System</p>
+            <p>Questions? Email ryan@buildthingsthatbuildthings.com</p>
+        </div>
+    </footer>
+
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const countdownEl = document.getElementById('countdown');
+            let time = localStorage.getItem('countdownTime');
+            
+            if (!time) {
+                time = 24 * 60 * 60; // 24 hours in seconds
+                localStorage.setItem('countdownTime', time);
+            }
+            
+            const interval = setInterval(() => {
+                time--;
+                
+                if (time <= 0) {
+                    clearInterval(interval);
+                    countdownEl.textContent = "EXPIRED";
+                    return;
+                }
+                
+                const hours = Math.floor(time / 3600);
+                const minutes = Math.floor((time % 3600) / 60);
+                const seconds = time % 60;
+                
+                countdownEl.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                localStorage.setItem('countdownTime', time);
+            }, 1000);
+        }
+        
+        updateCountdown();
+        
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
