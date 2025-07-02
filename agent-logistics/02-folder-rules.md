@@ -1,108 +1,58 @@
 ---
 owner_name: "Ryan Wanner"
 company_name: "Build Things That Build Things"
-primary_market: "Business Operating Systems / Solo Entrepreneur Tools"
+primary_market: "Business Operating Systems"
 tone_of_voice: "Direct, systematic, Alex Hormozi-inspired"
 last_updated: "2025-07-01"
-tags: ["agent-logistics", "organization", "folder-structure", "filing"]
+tags: [REQUIRE INPUT: tag structure for folder rules not found in Core-4]
 ---
 
 # Folder Rules & Asset Organization
 
-*A place for everything, everything in its place*
+[REQUIRE INPUT: Folder organization overview not found in Core-4]
 
 ## 🎯 Golden Rule
 
-Every asset lives in exactly ONE location based on its primary purpose. When in doubt, follow the customer journey.
+[REQUIRE INPUT: Golden rule for asset organization not found in Core-4]
 
 ## 📂 Domain Mapping
 
+[REQUIRE INPUT: Domain mapping structure not found in Core-4]
+
 ### 0-foundation/
-**What Goes Here**: Core business documents that rarely change
-- Vision, mission, values
-- Legal structure
-- Brand guidelines
-- Strategic plans
-- Core offers
+[REQUIRE INPUT: Foundation folder contents not found in Core-4]
 
 ### 1-market-intel-positioning/
-**What Goes Here**: Research and positioning
-- Customer personas (ICP)
-- Competitive analysis
-- Market research
-- SWOT analysis
-- Category definitions
+[REQUIRE INPUT: Market intel folder contents not found in Core-4]
 
 ### 2-growth-engine/
-**What Goes Here**: All marketing and growth assets
-- **2.1-awareness**: Ads, content, partnerships
-- **2.2-lead-capture**: Forms, magnets, calculators
-- **2.3-consideration-nurture**: Email/SMS sequences
-- **2.4-conversion**: Landing pages, checkout
-- **2.5-loyalty-retention**: Referrals, retention
-- **2.6-analytics-attribution**: Tracking, dashboards
-- **2.7-experimentation**: Tests, results
+[REQUIRE INPUT: Growth engine folder contents not found in Core-4]
 
 ### 3-sales-pipeline/
-**What Goes Here**: Sales process assets
-- CRM configuration
-- Sales scripts
-- Proposal templates
-- Contract templates
-- Payment processing
+[REQUIRE INPUT: Sales pipeline folder contents not found in Core-4]
 
 ### 4-delivery-customer-success/
-**What Goes Here**: Post-sale assets
-- Onboarding flows
-- Service delivery docs
-- Success metrics
-- Renewal playbooks
+[REQUIRE INPUT: Delivery folder contents not found in Core-4]
 
 ### 5-product-innovation/
-**What Goes Here**: Product development
-- Roadmaps
-- User research
-- Feature specs
-- Release notes
+[REQUIRE INPUT: Product innovation folder contents not found in Core-4]
 
 ### 6-finance-admin/
-**What Goes Here**: Financial operations
-- Bookkeeping guides
-- Budget templates
-- KPI dashboards
-- Tax docs
+[REQUIRE INPUT: Finance admin folder contents not found in Core-4]
 
 ### 7-people-culture/
-**What Goes Here**: Team assets
-- Org charts
-- Hiring processes
-- Training materials
-- Culture docs
+[REQUIRE INPUT: People culture folder contents not found in Core-4]
 
 ### 8-tech-stack-infrastructure/
-**What Goes Here**: Technical documentation
-- Tool configs
-- API docs
-- Security protocols
-- Automation specs
+[REQUIRE INPUT: Tech stack folder contents not found in Core-4]
 
 ### 9-governance-continuous-improvement/
-**What Goes Here**: Strategic reviews
-- Board materials
-- QBR templates
-- Retrospectives
-- Improvement logs
+[REQUIRE INPUT: Governance folder contents not found in Core-4]
 
 ## 🚨 Common Confusions
 
-**Email about product** → 2.3 (it's marketing)
-**Email to customers** → 4 (it's success)
-**Sales email** → 3 (it's pipeline)
-
-**Landing page** → 2.4 (conversion)
-**Homepage** → 0.4 (brand)
-**Blog post** → 2.1 (awareness)
+[REQUIRE INPUT: Common filing confusions not found in Core-4]
 
 ---
 
-*When everyone knows where things go, everything gets found.*
+*Built with our own Biz OS framework - because we eat our own dog food.*
