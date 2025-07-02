@@ -1,108 +1,54 @@
 ---
 owner_name: "Ryan Wanner"
 company_name: "Build Things That Build Things"
-primary_market: "Business Operating Systems / Solo Entrepreneur Tools"
+primary_market: "Business Operating Systems"
 tone_of_voice: "Direct, systematic, Alex Hormozi-inspired"
 last_updated: "2025-07-01"
-tags: ["agent-logistics", "sops", "workflow", "collaboration"]
+tags: [REQUIRE INPUT: tag structure for agent SOPs not found in Core-4]
 ---
 
 # Agent Standard Operating Procedures
 
-*How AI and humans work together without stepping on toes*
+[REQUIRE INPUT: Agent SOPs overview not found in Core-4]
 
 ## 🤖 For AI Agents
 
 ### Before You Start
-1. **Check existing files** via index catalog
-2. **Read naming convention** (00-naming-convention.md)
-3. **Verify folder placement** (02-folder-rules.md)
-4. **Review version history** if updating
+[REQUIRE INPUT: AI agent pre-start checklist not found in Core-4]
 
 ### Creating New Assets
-1. **Always include YAML front-matter**
-2. **Follow exact naming formula**
-3. **Place in correct domain folder**
-4. **Update index after creation**
-5. **Commit with clear message**
+[REQUIRE INPUT: AI agent asset creation procedures not found in Core-4]
 
 ### Updating Existing Assets
-1. **Check if update or new version needed**
-2. **Preserve original if major changes**
-3. **Document changes in commit**
-4. **Update last_updated in YAML**
-5. **Maintain consistent formatting**
+[REQUIRE INPUT: AI agent asset update procedures not found in Core-4]
 
 ## 👥 For Human Collaborators
 
 ### Git Workflow
-1. **Branch Strategy**
-   - Feature branches for new assets
-   - Quick fixes can go to main
-   - Name branches descriptively
-
-2. **Commit Messages**
-   ```
-   feat: Add email nurture sequence v2
-   fix: Update CAC metric in growth overview
-   docs: Improve CRM setup instructions
-   refactor: Reorganize landing page structure
-   ```
-
-3. **Pull Request Etiquette**
-   - Clear title and description
-   - Link related issues
-   - Request specific reviewers
-   - Include testing notes
+[REQUIRE INPUT: Git workflow procedures not found in Core-4]
 
 ### Collaboration Rules
-1. **Communication**
-   - Comment your reasoning
-   - Tag relevant people
-   - Update project boards
-   - Document decisions
-
-2. **Quality Standards**
-   - Spell check everything
-   - Verify all links work
-   - Test automations
-   - Review before pushing
+[REQUIRE INPUT: Collaboration rules not found in Core-4]
 
 ## 🔄 Automation Hooks
 
 ### Pre-commit
-- Validate YAML front-matter
-- Check naming convention
-- Verify folder placement
+[REQUIRE INPUT: Pre-commit automation hooks not found in Core-4]
 
 ### Post-commit
-- Update index catalog
-- Generate documentation
-- Notify relevant channels
+[REQUIRE INPUT: Post-commit automation hooks not found in Core-4]
 
 ### On PR Merge
-- Deploy applicable changes
-- Update version logs
-- Archive old versions
+[REQUIRE INPUT: PR merge automation hooks not found in Core-4]
 
 ## 📋 Checklists
 
 ### New Asset Checklist
-- [ ] Correct naming format
-- [ ] YAML front-matter complete
-- [ ] Placed in right folder
-- [ ] Content spell-checked
-- [ ] Links verified
-- [ ] Index updated
-- [ ] Committed with message
+[REQUIRE INPUT: New asset checklist not found in Core-4]
 
 ### Review Checklist
-- [ ] Meets quality standards
-- [ ] Follows conventions
-- [ ] Adds business value
-- [ ] No duplicate effort
-- [ ] Ready to deploy
+[REQUIRE INPUT: Review checklist not found in Core-4]
 
 ---
 
-*Great systems make great outcomes inevitable.*
+*Built with our own Biz OS framework - because we eat our own dog food.*
