@@ -60,7 +60,7 @@ This handbook ensures consistency across all collaborators - whether AI agents, 
 ---
 owner_name: "Ryan Wanner"
 company_name: "Build Things That Build Things"
-primary_market: "Business Operating Systems"
+primary_market: "Business Operating Systems / Solo Entrepreneur Tools"
 tone_of_voice: "Direct, systematic, Alex Hormozi-inspired"
 last_updated: "2025-07-01"
 tags: ["domain", "specific", "searchable", "tags"]
@@ -95,4 +95,4 @@ When working in this repository:
 
 ---
 
-*This logistics system ensures your BOS scales smoothly from $100K to $10M+*
+*This logistics system ensures your BOS scales smoothly as your business grows.*
